@@ -62,12 +62,10 @@ function updateLike(message_id)
 function logout() {
   localStorage.removeItem("user_name");
   localStorage.removeItem("room_name");
-  window.location = "letsChatHome.html";
+  window.location = "index.html";
   }
 
-// function addRoom() {
-//   window.location = "chatMsgPage.html";
-// }
+
 
 function addRoom()
 {
